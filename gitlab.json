@@ -1,0 +1,25 @@
+{
+  "jupyter.lab.setting-icon-class": "jp-GitLab-icon",
+  "jupyter.lab.setting-icon-label": "GitLab",
+  "title": "GitLab",
+  "description": "Settings for the GitLab plugin.",
+  "properties": {
+    "baseUrl": {
+      "type": "string",
+      "title": "JSC GitLab Base URL",
+      "default": "https://gitlab.version.fz-juelich.de"
+    },
+    "accessToken": {
+      "type": "string",
+      "title": "A GitLab Personal Access Token",
+      "description": "WARNING: For security reasons access tokens should be set in the server extension.",
+      "default": ""
+    },
+    "defaultRepo": {
+      "type": "string",
+      "title": "Default Repository",
+      "default": "jupyter4jsc/j4j_notebooks"
+    }
+  },
+  "type": "object"
+}
